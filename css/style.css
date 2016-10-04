@@ -21,9 +21,8 @@
 	font-weight: 700;
 	color: #fdf731;
 	text-decoration: none;
-	padding-top: 20px;
-	display: inline-block;
-	padding-left: 30px;
+	padding: 10px 10px 10px 20px;
+	float: left;
 }
 
 
@@ -37,20 +36,24 @@ ul {
 	list-style: none;
 }
 
+.navigation {
+	padding: 10px 10px 10px 10px;
+}
+
 .nav {
     font-size: 20px;
     font-weight: 400;
     font-family: 'Source Sans', Sans-Serif;
     float: right;
-	display: inline-block;
 	color: white;
-	padding: 0px 10px 20px 10px;
+	padding: 10px 10px 10px 10px;
 }
 
 .nav1 {
     font-weight: 700;
     font-family: 'Oswald', Sans-Serif;
 	text-transform: uppercase;
+	 padding-top: 6px;
 }
 
 li.nav a:link, li.nav a:visited {
@@ -134,24 +137,29 @@ li.nav a:hover {
 	box-shadow: 0px 2px 0px #666;
 }
 
+#section2 {
+	background-color: white;
+}
+
 #create {
 	float: left;
-	display: inline-block;
-	width: 30%;
-	padding: 40px;
+	width: 33.33%;
+	padding: 20px 40px 40px;
+	border-right: solid 1px #c6c6c6;
+	margin: 20px 0px 20px;
 }
 
 #find {
-	display: inline-block;
-	width: 30%;
-	padding: 40px;
-	margin-left: 70px;
+	float: left;
+	width: 33.33%;
+	padding: 20px 40px 40px;
+	border-right: solid 1px #c6c6c6;
+	margin: 20px 0px 20px;
 }
 
 #designer {
-	display: inline-block;
-	float: right;
-	width: 30%;
+	float: left;
+	width: 33.33%;
 	padding: 40px;
 }
 
@@ -187,6 +195,13 @@ li.nav a:hover {
 	font-size: 25px;
 	font-weight: 700;
 	padding-bottom: 10px;
+}
+
+.find2 {
+	font-family: 'Source Sans', Sans-Serif;
+	font-size: 18px;
+	font-weight: 300;
+	padding-bottom: 40px;
 }
 
 #find3 {
@@ -231,7 +246,10 @@ h3 {
 	font-family: 'Source Sans', Sans-Serif;
 	font-size: 20px;
 	font-weight: 400;
+	display: inline-block;
+	width: 100%;
 }
+
 
 
 
