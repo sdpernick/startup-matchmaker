@@ -31,6 +31,8 @@ header {
 	border-bottom: solid 3px #fdf731;
 }
 
+
+/*Regular Code*/
 .navigation {
 	padding: 10px 10px 10px 10px;
 	float: right;
@@ -48,6 +50,48 @@ ul {
 	padding: 10px 10px 10px 10px;
 	float: left;
 }
+
+/*Responsive*/
+@media only screen and (max-width: 767px) {
+  .navigation{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    float: none;
+    display: block;
+  }
+}
+
+.hamburger span{
+  margin: 5px;
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: yellow;
+}
+
+.hamburger{
+	margin-top: 10px;
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .hamburger{
+    display: block;
+    float: right;
+  }
+}
+
+/*Regular Code*/
 
 .nav1 {
     font-weight: 700;
@@ -104,9 +148,15 @@ li.nav a:hover {
 	background-color: rgba(255,255,255,.8);
 	float: right;
 	margin: 20px 40px 20px 20px;
-	width: 30%;
+    width: 40%;
 	height: auto;
 	padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  #match {
+    width: 100%;
+  }
 }
 
 .matchmaker {
@@ -141,6 +191,7 @@ li.nav a:hover {
 	background-color: white;
 }
 
+
 #create {
 	float: left;
 	width: 33.33%;
@@ -153,6 +204,22 @@ li.nav a:hover {
 	float: left;
 	width: 33.33%;
 	padding: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  #create {
+    float: none;
+    display: block;
+   width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #designer {
+    float: none;
+    display: block;
+    width: 100%;
+  }
 }
 
 h3 {
